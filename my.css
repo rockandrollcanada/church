@@ -1,0 +1,55 @@
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.center {
+  position: center;
+  color: white;
+  margin: auto;
+  width: 75%;
+  border: 2px solid red;
+  padding: 10px;
+}
+
+
+  body {
+    
+      background-image: url("assets/weed.png");
+      background-color: #cccccc;
+     
+   }
+
+
+.cell{
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 75px;
+  font-size: 50px;
+  cursor: pointer;
+}
+#gameContainer{
+font-family: 'Overpass', sans-serif;
+text-align: center;
+}
+#cellContainer{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
+}
